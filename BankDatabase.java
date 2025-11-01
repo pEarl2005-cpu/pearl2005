@@ -41,7 +41,7 @@ public class BankDatabase {
         return false;
     }
 
-    // ✅ New method to apply interest to all accounts
+    //  New method to apply interest to all accounts
     public static void applyInterest(double ratePercent) {
         for (String acc : accounts.keySet()) {
             double current = accounts.get(acc);
@@ -50,4 +50,5 @@ public class BankDatabase {
         }
     }
 }
+
 
